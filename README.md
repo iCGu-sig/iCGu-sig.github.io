@@ -1,1 +1,1 @@
-# Open-Source Information Share Plan( OSIS(P) )
+# Open-Source Information Share Plan(OSISP)
