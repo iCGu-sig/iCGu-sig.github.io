@@ -1,1 +1,1 @@
-# Open-Source Information Share(OSIS)
+# Open-Source Information Share Plan( OSIS(P) )
