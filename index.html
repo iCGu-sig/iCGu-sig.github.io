@@ -1,0 +1,68 @@
+<!-- Shit Code? I don't care :) -->
+<!-- 規範（常用）：
+        # html
+            [class /id /onload /onclick /]
+            [<a><b><c style="demo">demo</a></b></c>]
+        # css
+            [float ;text-align ;overflow ;font-size ;top ;left ;right ;height ;width ;blackground-color ;colur ;]
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="media/image/icon.ico">
+    <title>OSIS</title>
+    <script>
+        function body_loaded(){
+            run_time_script()
+        }
+        function run_time_script(){
+            document.getElementById("time").innerHTML=new Date()
+            setTimeout("run_time_script()",1000)
+        }
+    </script>
+</head>
+<body onload="body_loaded()">
+    <div style="float: left;height: 100%;width: 80%;">
+        <div  style="float: left;text-align: right;height: 20%;width: 40%;">
+            <img src="media/image/computer-01.png" alt="can't find media">
+        </div>
+        <div style="float: left;text-align: left;height: 20%;width: 60%;">
+            <h1>Open-Source Information Share(OSIS)</h1>
+        </div>
+        <div style="float: left;height: 20%;width: 100%;">
+            <h3>Time: <span id="time">time</span> <span id="verify_clock" style="background-color: rgb(255, 245, 110);">Verify Your Clock</span></h3>
+        </div>
+        <div style="float: left;height: 60%;width: 20%;">
+            <h3>Home</h3>
+            <h3>Article</h3>
+        </div>
+        <div style="float: left;overflow: auto;height: 60%;width: 80%;">
+            <fieldset>
+                <h3>Record</h3>
+                <table border="1" style="width: 100%;">
+                <tr>
+                    <th style="width: 70%;">Content</th>
+                    <th style="width: 15%;">Date</th>
+                    <th style="width: 15%;">Time</th>
+                </tr>
+                <tr>
+                    <td>Start build</td>
+                    <td>20/12/2021</td>
+                    <td>19:00 UTC+8</td>
+                </tr>
+            </table>
+            </fieldset>
+            
+        </div>
+    </div>
+    <div style="float: left;text-align: center;height: 100%;width: 20%;">
+        <img src="media/image/open-source-christmas.png" alt="can't find media">
+        <h2>Christmas</h2>
+        <p>25th December</p>
+        <img src="media/image/christmas-tree.png" alt="can't find media">
+    </div>
+</body>
+</html>
